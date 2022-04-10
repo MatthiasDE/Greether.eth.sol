@@ -1,4 +1,4 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.8.13;
     /* SPDX-License-Identifier: MIT */
 
 contract SimpleStorage {
@@ -8,7 +8,7 @@ contract SimpleStorage {
         storedData = x;
     }
 
-    function get() constant public returns (uint) {
+    function get() view public returns (uint) {
         return storedData;
     }
 

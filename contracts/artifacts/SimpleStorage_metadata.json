@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xbbf60df3a48e81bfea5a79b1e6d1f689d3b013c29684cb4aa496a174ab379c96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://773a143647f8c3ef80841374778a12696fca6b4a42b2c6e8bce7292a53fffe98",
+				"dweb:/ipfs/QmUtEVdqfJsLiRyqF2DVZTW9kMzYwJrBN4g3ARFZDd8brx"
+			]
+		}
+	},
+	"version": 1
+}
