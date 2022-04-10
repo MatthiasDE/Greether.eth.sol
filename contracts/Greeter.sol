@@ -1,19 +1,20 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.8.13;
+/* SPDX-License-Identifier: MIT */
 
 contract Greeter {
     /* Define variable greeting of the type string */
     string public yourName;
 
     /* This runs when the contract is executed */
-    function Greeter() public {
-        yourName = "World";
+    constructor() {
+        yourName = "Hello World!";
     }
 
-    function set(string name) public {
-        yourName = name;
+    function setName(string memory name) public {
+        yourName = string(abi.encodePacked("Hello ", name, "!"));
     }
 
-    function hello() constant public returns (string) {
+    function hello() view public returns (string memory) {
         return yourName;
-    }
+    } 
 }
