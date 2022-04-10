@@ -1,5 +1,5 @@
 pragma solidity ^0.8.13;
-    /* SPDX-License-Identifier: GPL-3.0-only */
+/* SPDX-License-Identifier: GPL-3.0-only */
 
 //Imagine a biginteger that the whole world could share
 contract SimpleStorage {
