@@ -1,5 +1,5 @@
 pragma solidity ^0.8.13;
-/* SPDX-License-Identifier: MIT */
+/* SPDX-License-Identifier: GPL-3.0-only */
 
 contract Greeter {
     /* Define variable greeting of the type string */
