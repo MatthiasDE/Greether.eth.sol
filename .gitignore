@@ -3,4 +3,7 @@
 # Remix IDE build output
 build-info/
 
+#Solidity Compiler
+artifacts/
+
 # End of file
