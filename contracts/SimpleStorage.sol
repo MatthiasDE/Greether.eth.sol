@@ -1,6 +1,7 @@
 pragma solidity ^0.8.13;
     /* SPDX-License-Identifier: MIT */
 
+//Imagine a biginteger that the whole world could share
 contract SimpleStorage {
     uint storedData;
 
